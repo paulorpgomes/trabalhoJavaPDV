@@ -19,12 +19,12 @@ public class VendaController {
         vendas = new ArrayList<>();
     }
 
-    // Registrar uma nova venda
+    
     public void registrarVenda(Venda venda) {
         vendas.add(venda);
     }
 
-    // Listar todas as vendas
+    
     public List<Venda> listarVendas() {
         return vendas;
     }
